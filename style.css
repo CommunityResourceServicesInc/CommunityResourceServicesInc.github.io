@@ -3,77 +3,10 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: #7A7A7A;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   user-select: none;
-}
-
-[class^=open-], [class^=closed-] {
-  opacity: 0;
-}
-
-.like {
-  transform: scaleX(-1);
-  width: var(--size);
-  height: var(--size);
-  cursor: pointer;
-  border-radius: 999px;
-  overflow: visible;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-tap-highlight-color: transparent;
-}
-.like > * {
-  opacity: 0;
-}
-.like .stroke {
-  opacity: 1;
-}
-
-.ball path:last-child {
-  transform-origin: 23.5% 23.5%;
-}
-
-@media (hover: hover) {
-  svg:hover {
-    background-color: #E1255E15;
-  }
-  svg:hover .stroke {
-    fill: #E1255E;
-  }
-}
-.hashflag {
-  position: fixed;
-  display: block;
-  right: 114px;
-  bottom: 20px;
-}
-.hashflag img {
-  display: block;
-  height: 28px;
-}
-
-.dribbble {
-  position: fixed;
-  display: block;
-  right: 20px;
-  bottom: 20px;
-}
-.dribbble img {
-  display: block;
-  height: 28px;
-}
-
-.twitter {
-  position: fixed;
-  display: block;
-  right: 64px;
-  bottom: 14px;
-}
-.twitter svg {
-  width: 32px;
-  height: 32px;
-  fill: #1da1f2;
 }
