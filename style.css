@@ -3,7 +3,7 @@
 }
 
 html {
-  background-color: #7A7A7A;
+  background-image: url('blm-collage.png');
   min-height: 100vh;
   display: flex;
   justify-content: center;
